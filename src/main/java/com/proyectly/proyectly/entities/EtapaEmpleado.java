@@ -15,14 +15,11 @@ import java.util.Date;
 @AllArgsConstructor
 @Getter
 @Setter
-public class EtapaEmpleado implements Serializable{
+public class EtapaEmpleado extends Base{
     @Column
     private int cantidadHorasAsignadas;
     @Column
     private int cantidadHorasRealizadas;
     @Column
     private Date fechaAsignacion;
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int idEtapaEmpleado;
 }

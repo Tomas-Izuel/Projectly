@@ -15,9 +15,8 @@ import java.util.Date;
 @AllArgsConstructor
 @Getter
 @Setter
-public class Proyecto implements Serializable{
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+public class Proyecto extends Base{
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int code;
     @Column
     private Date fechaFin;

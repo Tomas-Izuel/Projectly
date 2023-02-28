@@ -15,8 +15,8 @@ import java.util.Date;
 @AllArgsConstructor
 @Getter
 @Setter
-public class Empleado implements Serializable{
-    @Id
+public class Empleado extends Base{
+    @Column
     private int cuil;
     @Column
     private String nombre;

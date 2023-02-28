@@ -14,10 +14,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 @Getter
 @Setter
-public class NivelExperiencia implements Serializable {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int idNE;
+public class NivelExperiencia extends Base{
     @Column
     private String nombre;
 }

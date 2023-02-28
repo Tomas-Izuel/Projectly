@@ -14,8 +14,5 @@ import java.io.Serializable;
 @AllArgsConstructor
 @Getter
 @Setter
-public class EmpleadoArea implements Serializable{
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int idEmpleadoArea;
+public class EmpleadoArea extends Base{
 }

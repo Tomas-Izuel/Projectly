@@ -17,8 +17,8 @@ import java.io.Serializable;
 @AllArgsConstructor
 @Getter
 @Setter
-public class Empresa implements Serializable {
-    @Id
+public class Empresa extends Base {
+    @Column
     private int cuit;
     @Column
     private String name;

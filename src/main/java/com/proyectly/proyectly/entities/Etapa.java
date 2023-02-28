@@ -14,10 +14,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 @Getter
 @Setter
-public class Etapa implements Serializable{
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+public class Etapa extends Base{
     @Column
     private String nombre;
 }

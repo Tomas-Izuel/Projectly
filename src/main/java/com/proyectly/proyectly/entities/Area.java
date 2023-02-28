@@ -14,10 +14,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 @Getter
 @Setter
-public class Area implements Serializable{
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int idArea;
+public class Area extends Base{
     @Column
     private String nombre;
 }
