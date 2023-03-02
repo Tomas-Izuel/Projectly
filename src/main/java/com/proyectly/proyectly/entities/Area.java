@@ -9,7 +9,7 @@ import lombok.Setter;
 import java.io.Serializable;
 
 @Entity
-@Table(name = "Empresa")
+@Table(name = "Area")
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter

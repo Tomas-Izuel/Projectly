@@ -10,7 +10,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 @Entity
-@Table(name = "Empresa")
+@Table(name = "Empleado")
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
